@@ -1,1 +1,83 @@
-/* You CSS goes in here */
+body {
+    background-color: rgb(255, 127, 62);
+}
+
+#headertext {
+     text-align: center;
+     font-size: 2em;
+     background-color: rgb(24, 96, 211);
+}
+.simulate {
+    width: 100%;  
+    height: 115vh;
+    display: flex; 
+    box-shadow: 5px 5px 10px rgb(208, 15, 15);
+    border: 4px solid black;
+    
+}
+
+#massage {
+    
+    padding: 10px;
+    margin-left: 10px;
+    border-right: 4px solid black;
+    border: 4px solid black;
+    font-size: 2em;
+    background-color: rgba(255, 219, 120, 0.711);
+    color: black;
+}
+
+/* From Uiverse.io for Button */ 
+.btn-class-name {
+    /* margin-top: 50%;
+    margin-left: -100px; */
+    position: absolute;
+    top: 120%; left: 69%;
+    --color: 0, 50, 133;
+    border-radius: .5em;
+    transition: .3s;
+    background-color: rgba(var(--color), .2);
+    color: rgb(var(--color));
+    fill: rgb(var(--color));
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(var(--color));
+    box-shadow: 0 0 10px rgba(var(--color), .4);
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: .5em 1em;
+  }
+  
+  .btn-class-name:hover {
+    box-shadow: 0 0 0 5px rgba(var(--color), .5);
+  }
+  
+  .btn-class-name span {
+    transform: scale(.8);
+    transition: .3s;
+  }
+  
+  .btn-class-name:hover span {
+    transform: scale(1);
+  }
+  
+  .btn-class-name svg {
+    font-size: 0;
+    transform: scale(0.5) translateX(0%) rotate(-180deg);
+    transition: .3s;
+  }
+  
+  .btn-class-name:hover svg {
+    font-size: 20px;
+    transform: scale(1) translateX(20%) rotate(0deg);
+  }
+  
+  .btn-class-name:active {
+    transition: 0s;
+    box-shadow: 0 0 0 5px rgb(var(--color));
+  }
